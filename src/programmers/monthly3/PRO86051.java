@@ -1,4 +1,4 @@
-package programmers.montly3;
+package programmers.monthly3;
 
 // [없는 숫자 더하기] https://programmers.co.kr/learn/courses/30/lessons/86051?language=java
 public class PRO86051 {

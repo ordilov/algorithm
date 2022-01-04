@@ -1,4 +1,4 @@
-package programmers.montly3;
+package programmers.monthly3;
 
 import java.util.ArrayList;
 import java.util.List;
