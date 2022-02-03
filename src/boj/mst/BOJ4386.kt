@@ -54,6 +54,6 @@ fun find(parent: Array<Int>, a: Int): Int {
     return root
 }
 
-fun getDistance(star1: Pair<Double, Double>, star2: Pair<Double, Double>): Double {
+private fun getDistance(star1: Pair<Double, Double>, star2: Pair<Double, Double>): Double {
     return sqrt((star1.first - star2.first) * (star1.first - star2.first) + (star1.second - star2.second) * (star1.second - star2.second))
 }
