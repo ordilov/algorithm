@@ -35,7 +35,7 @@ fun main() {
 }
 
 
-fun union(parent: Array<Int>, rank: Array<Int>, a: Int, b: Int) {
+private fun union(parent: Array<Int>, rank: Array<Int>, a: Int, b: Int) {
     val rootA = find(parent, a)
     val rootB = find(parent, b)
     if (rank[rootA] < rank[rootB]) {
@@ -46,7 +46,7 @@ fun union(parent: Array<Int>, rank: Array<Int>, a: Int, b: Int) {
     }
 }
 
-fun find(parent: Array<Int>, a: Int): Int {
+private fun find(parent: Array<Int>, a: Int): Int {
     var root = a
     while (parent[root] != root) {
         root = parent[root]
