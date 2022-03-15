@@ -1,7 +1,7 @@
 package boj.graph
 
 // [경로 찾기] https://www.acmicpc.net/problem/11403
-var graph = arrayOf<MutableList<Int>>()
+private lateinit var graph: Array<MutableList<Int>>
 var movable = arrayOf<IntArray>()
 fun main() {
     val n = readLine()!!.toInt()
