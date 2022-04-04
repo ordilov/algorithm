@@ -8,7 +8,7 @@ fun main() {
     m = t[1]
     arr = readLine()!!.split(" ").map { it.toInt() }
     arr = arr.sorted()
-    dfs(BooleanArray(n), mutableListOf<Int>())
+    dfs(BooleanArray(n), mutableListOf())
 }
 
 private fun dfs(visited: BooleanArray, picked: MutableList<Int>) {
