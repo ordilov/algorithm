@@ -30,4 +30,6 @@ replay_pid*
 
 /lib
 
+.idea/
+.out/
 # End of https://www.toptal.com/developers/gitignore/api/kotlin
